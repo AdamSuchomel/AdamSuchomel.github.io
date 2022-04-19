@@ -1,0 +1,96 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: Arial;
+	text-align: justify;
+
+	overflow-x: hidden;
+}
+h1
+{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 100px;
+	color: #358859;
+	
+}
+.Prehled
+{
+	
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.iphone
+{
+	height: auto; 
+	width: 700px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform:translateX(-50%);
+	
+
+}
+
+.Charakteristika
+{
+	background: #1a2d25;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+
+}
+.prvniodstavec
+{
+	padding-top: 250px;
+	padding-left: 40px;
+	font-weight: bold;
+	font-size: 75px;
+	color: #1ec87e;
+
+
+	
+
+}
+.druhytext 
+{
+	padding-top: 250px;
+	padding-right: 	40px;
+	padding-bottom: 150px;
+	align-self: left;
+	font-weight: bold;
+	font-size: 75px;
+	color: #1ec87e;
+	text-align: right;
+
+}
+
+
+.container{
+	width: min(90vw, 1600px);
+	background: #1a2d25;
+}
+
+
+
+.neco{
+	background: red;
+}
+
+.right{
+	text-align: right;
+}
