@@ -15,7 +15,10 @@ body
 
 	overflow-x: hidden;
 }
-h1
+
+
+
+.HlavniNadpis
 {
 	margin-top: 100px;
 	text-align: center;
@@ -93,4 +96,21 @@ h1
 
 .right{
 	text-align: right;
+}
+
+
+@media (max-width: 700px){
+	body{
+		background:red;
+	}
+	.Prehled{
+		height: 650px;
+	}
+	.HlavniNadpis{
+		font-size: 70px;
+	}
+	.iphone{
+		width: 500px;
+		height: auto;
+	}
 }
