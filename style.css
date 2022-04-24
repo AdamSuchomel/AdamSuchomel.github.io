@@ -49,17 +49,19 @@ body
 .Funkce1
 {
 	background: #1a2d25;
-	width: 100%;
+	width: 100vw;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+
 	
 
 }
 .prvniodstavec
 {
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-left: 40px;
 	font-weight: bold;
 	font-size: 75px;
@@ -71,7 +73,7 @@ body
 }
 .druhyodstavec
 {
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-right: 	40px;
 	padding-bottom: 150px;
 	align-self: left;
@@ -117,6 +119,7 @@ body
 	padding-left: 30px;
 	float: left;
 	font-weight: normal;
+	text-align: justify;
 }
 .container2{
 	width: min(90vw, 1600px);
@@ -125,17 +128,13 @@ body
 
 .Funkce2 .FilmModePhoto
 {
-height: auto;		
-width: 1000px;
-display: block;
-width: 50%;
-margin-left: auto;
-margin-right: 5px; 
-float: right;
+
+width: 850px;
+/* width: 50%; */
+height: auto;
+ float: right;  
 background-color: #000000;
-padding-left: 0px;
-padding-bottom: 0px;
-float: right;
+
 }
 
 
@@ -186,7 +185,7 @@ a
 
 
 
-@media (max-width: 70px){
+@media (max-width: 1000px){
 	body{
 		background:red;
 	}
@@ -201,4 +200,20 @@ a
 		height: auto;
 
 	}
+	/* .Funkce2
+	{
+		position: relative;
+	}
+	.Funkce2 .FilmModePhoto
+	{
+		height: auto; 
+	width: 700px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform:translateX(-50%);
+	background-color: none;
+	
+	} */
 }
+
