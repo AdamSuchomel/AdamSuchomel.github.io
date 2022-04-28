@@ -35,6 +35,15 @@
         background: #000000;
     }
 
+    .container3 {
+        width: min(90vw, 1600px);
+        background: #A4FBE1;
+    }
+    .container4 {
+        width: min(90vw, 1600px);
+        background: #000000;
+    }
+
     /*  ------------------------ */
     /*  -------- NAVBAR -------- */
     /*  ------------------------ */
@@ -69,6 +78,9 @@
     }
 
 
+
+
+
     /*  --------------------------------- */
     /*  -------- LANDING SECTION -------- */
     /*  --------------------------------- */
@@ -78,6 +90,7 @@
         height: 100vh;
         position: relative;
     }
+
 
     .HlavniNadpis {
         font-size: 75px;
@@ -111,7 +124,7 @@
     }
 
     .prvniodstavec {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-left: 40px;
         font-weight: bold;
         font-size: 75px;
@@ -119,7 +132,7 @@
     }
 
     .druhyodstavec {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-right: 40px;
         padding-bottom: 150px;
         align-self: left;
@@ -207,7 +220,139 @@
         height: auto;
         float: right;
         background-color: #000000;
+        
     }
+
+    /*  -------------------------- */
+    /*  -------- SPECIFIKACE -------- */
+    /*  -------------------------- */
+
+    .Specifikace
+    {
+        
+        background: #A4FBE1;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .Specifikace .odstavec
+    {
+        font-weight: bold;
+        font-size: 60px;
+        color: #000000;
+        /* float: left; */
+        padding: 0%;
+        padding-top: 100px;
+        padding-left: 40px;
+        text-align: left;
+        
+    }
+    
+    .Specifikace img {
+
+        width: 400px;
+        height: auto;
+        float: right;
+        padding: 40px;
+
+
+    }
+
+    /*  -------------------------- */
+    /*  -------- A15 BIONIC -------- */
+    /*  -------------------------- */
+
+
+
+    .Chip
+    {
+        background: rgb(0, 0, 0);
+        width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Chip .imgWrapper
+    {
+        width: 60%;
+        background-color: rgb(0, 0, 0);
+        height: auto;
+        float: left;
+    }
+
+    .Chip .text
+    {
+        width: 40%;
+        height: 700px;
+        float: right;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .Chip img
+    {
+        float: left;
+        width: 900px;
+        height: auto;
+    }
+
+    
+ 
+    .Chip h1
+    {
+        
+        padding: 7%;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+     
+    }
+
+    li
+    {
+        padding: 10px;
+
+    }
+
+     .Chip li { 
+        color: white;
+        font-size: 20px;
+        font-weight: none;
+        font-weight: normal;
+        text-align: justify;
+        max-width: 500px;
+        padding-bottom: 20px;
+        margin-left: 5%;
+    } 
+
+    .text a{ 
+        
+        
+        border: 5px solid rgb(89, 89, 248);
+        border-radius: 50px;
+        color: white;
+        background-color: rgb(89, 89, 248);
+        display: inline-block;
+        padding: 0px 10px;
+        margin-top: 5%;
+        margin-left: 5%;        
+    } 
+/* .text a  ---- Matějuv Kod
+{
+    background: #2954DB;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 100rem;
+    margin-top: 2rem;
+    margin-left: 5%;
+} */
 
     /*  ------------------------------- */
     /*  -------- MEDIA QUERIES -------- */
@@ -236,7 +381,29 @@
             margin: 0 auto;
             padding-inline: 10px
         }
+    
+
+
+/* ----------SPECIFIKACE---------- */
+
+
+     .Specifikace .imgWrapper {
+        width: 100%;
+        display: flex;
+    } 
+    .Specifikace img
+    {
+        margin: 0 auto;
+        max-width: 100%;
     }
+    .Specifikace .odstavec
+    {
+        font-size: 50px;
+       text-align: center;
+
+    }
+}
+
 
     /* ------------------------------ */
 
@@ -261,4 +428,32 @@
         .Funkce2 p.prvniodstavec {
             font-size: 18px;
         }
+
+        .iphone
+        {
+            width: 580px;
+        }
+
+
+        /* ----------SPECIFIKACE---------- */
+
+
+    .Specifikace .imgWrapper {
+        width: 100%;
+        display: flex;
+    }
+    .Specifikace img
+    {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .Specifikace .odstavec
+    {
+        font-size: 30px;
+       text-align: center;
+       padding-left: 0px;
+       padding-top: 60px;
+
+    }
+
     }
