@@ -237,6 +237,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-bottom: 6%;
     }
     
     .Specifikace .odstavec
@@ -251,13 +252,14 @@
         text-align: left;
         
     }
+
     
     .Specifikace img {
 
         width: 400px;
         height: auto;
         float: right;
-        padding: 40px;
+        padding: 45px;
 
 
     }
@@ -292,6 +294,7 @@
         height: 700px;
         float: right;
         background-color: rgb(0, 0, 0);
+
     }
 
     .Chip img
@@ -333,14 +336,19 @@
     .text a{ 
         
         
-        border: 5px solid rgb(89, 89, 248);
-        border-radius: 50px;
+        /* border: 5px solid rgb(89, 89, 248); */
+        border-radius: 100rem;
         color: white;
-        background-color: rgb(89, 89, 248);
+        font-size: 20px;
+        background-color: rgb(51, 129, 218);
         display: inline-block;
-        padding: 0px 10px;
+        padding: 0.5rem 2rem;
         margin-top: 5%;
-        margin-left: 5%;        
+        margin-left: 5%;  
+        /* width: fit-content;
+        align-self: center; */
+
+        
     } 
 /* .text a  ---- Matějuv Kod
 {
@@ -402,7 +410,46 @@
        text-align: center;
 
     }
+
+
+
+/* ----------Chip---------- */
+
+.Chip .text,
+.Chip .imgWrapper
+{
+    float: none;
 }
+
+.Chip .imgWrapper {
+    width: 100%;
+    display: flex;
+} 
+.Chip .text
+{
+    width: 100%;
+    height: 450px;
+}
+.Chip img
+{
+        margin: 0 auto;
+        max-width: 100%;
+}
+.Chip h1
+{
+    font-size: 70px;
+}
+.Chip li 
+{
+    font-size: 22px;
+}
+
+
+
+}
+
+
+
 
 
     /* ------------------------------ */
@@ -455,5 +502,47 @@
        padding-top: 60px;
 
     }
+    
+
+
+/* ----------Chip---------- */
+
+    .Chip .text,
+.Chip .imgWrapper
+{
+    float: none;
+}
+
+.Chip .imgWrapper {
+    width: 100%;
+    display: flex;
+} 
+.Chip .text
+{
+    width: 100%;
+    height: 450px;
+    font-size: 20px;
+}
+.Chip img
+{
+        margin: 0 auto;
+        max-width: 100%;
+}
+.Chip h1
+{
+    font-size: 50px;
+}
+
+.Chip li 
+{
+    font-size: 18px;
+}
+
+.text a
+{
+    font-size: 18px;
+}
+
+
 
     }
