@@ -336,7 +336,7 @@
     .text a{ 
         
         
-        /* border: 5px solid rgb(89, 89, 248); */
+ 
         border-radius: 100rem;
         color: white;
         font-size: 20px;
@@ -345,22 +345,10 @@
         padding: 0.5rem 2rem;
         margin-top: 5%;
         margin-left: 5%;  
-        /* width: fit-content;
-        align-self: center; */
+
 
         
     } 
-/* .text a  ---- Matějuv Kod
-{
-    background: #2954DB;
-    color: white;
-    text-decoration: none;
-    border: none;
-    padding: 0.5rem 2rem;
-    border-radius: 100rem;
-    margin-top: 2rem;
-    margin-left: 5%;
-} */
 
     /*  ------------------------------- */
     /*  -------- MEDIA QUERIES -------- */
@@ -387,7 +375,8 @@
         .Funkce2 .prvniodstavec {
             font-size: 1.4rem;
             margin: 0 auto;
-            padding-inline: 10px
+            padding-inline: 10px;
+            margin-bottom: 10px;
         }
     
 
@@ -438,11 +427,14 @@
 .Chip h1
 {
     font-size: 70px;
+    padding-bottom: 5%;
 }
 .Chip li 
 {
     font-size: 22px;
 }
+
+
 
 
 
@@ -541,6 +533,16 @@
 .text a
 {
     font-size: 18px;
+}
+
+/* .text
+{
+    text-align: left;
+} */
+
+.DIVvDIVUvDIVU 
+{
+    text-align: center;
 }
 
 
