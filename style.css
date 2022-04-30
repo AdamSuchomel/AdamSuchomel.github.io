@@ -47,6 +47,10 @@
         width: min(90vw, 1920px);
         background: #ffffff;
     }
+    .container6 {
+        width: min(90vw, 1920px);
+        background: #ffffff;
+    }
 
     /*  ------------------------ */
     /*  -------- NAVBAR -------- */
@@ -352,7 +356,7 @@
     } 
 
     /*  -------------------------- */
-    /*  -------- A15 BIONIC -------- */
+    /*  -------- IOS -------- */
     /*  -------------------------- */
 
 .IOS 
@@ -415,9 +419,89 @@ border-radius: 40px;
     
 }
 
+    /*  -------------------------- */
+    /*  -------- IOS2 -------- */
+    /*  -------------------------- */
+
+    .IOS2
+    {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    }
+
+    .container6
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        
+    }
+
+
+    
+
+    .IOSLEFT h1, .IOSMID h1, .IOSRIGHT h1
+    {
+        text-align: center;
+        color: #04D3C7;
+        padding: 5%;
+        font-size: 60px;
+    }
+    .IOSLEFT h2, .IOSMID h2, .IOSRIGHT h2
+    {
+        text-align: center;
+        color: #000000;
+        padding: 5%;
+        text-align: left;
+        font-size: 22px
+    }
+
+    .IOSLEFT img, .IOSMID img, .IOSRIGHT img
+    {
+        width: 120px;
+        height: 120px;
+      margin: auto;
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+
+    .IOSLEFT, .IOSMID, .IOSRIGHT
+    {
+        width: auto;
+        height: 700px;
+        position: relative;
+        width: 25%;
+        border-radius: 40px;
+        background-color: #F5F5F7;
+
+      
+    }
 
 
 
+    .odkazdiv a{ 
+        
+        
+ 
+        border-radius: 100rem;
+        color: white;
+        font-size: 20px;
+        background-color: rgb(51, 129, 218);
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        margin-top: 5%;
+        margin-left: 5%;  
+
+    } 
 
 
 
@@ -522,15 +606,37 @@ border-radius: 40px;
 
 .IOS15
 {
-    height: 1000px;
+    height: 800px;
     position: relative;
 }
 
 
+/* ----------IOS2---------- */
+
+.container6
+{
+    display: block;
+    justify-content: normal;
+    
+
+}
+
+.IOS2 .IOSLEFT, .IOS2 .IOSMID, .IOS2 .IOSRIGHT
+{
+
+    width: 100%;
+    margin: 5% 0;
+
+}
+.IOS h2, .IOS2 h2
+{
+    font-size: 25px;
+}
 
 
 
 }
+
 
 
 
@@ -639,6 +745,9 @@ border-radius: 40px;
 
 
 
+
+
+
 /* ----------iOS---------- */
 
 .IOS15 img
@@ -673,6 +782,7 @@ border-radius: 40px;
 
 font-size: 20px;
 padding-left: 0%;
+font-weight: none;
 
 }
 .IOS15
@@ -683,6 +793,12 @@ padding-left: 0%;
     display: block;
     position: relative;
 }
+
+.IOSLEFT h1, .IOSMID h1, .IOSRIGHT h1
+{
+    font-size: 50px;
+}
+
 
 
 
