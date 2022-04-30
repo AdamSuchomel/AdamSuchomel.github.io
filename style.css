@@ -43,6 +43,10 @@
         width: min(90vw, 1600px);
         background: #000000;
     }
+    .container5 {
+        width: min(90vw, 1920px);
+        background: #ffffff;
+    }
 
     /*  ------------------------ */
     /*  -------- NAVBAR -------- */
@@ -345,10 +349,80 @@
         padding: 0.5rem 2rem;
         margin-top: 5%;
         margin-left: 5%;  
-
-
-        
     } 
+
+    /*  -------------------------- */
+    /*  -------- A15 BIONIC -------- */
+    /*  -------------------------- */
+
+.IOS 
+{
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.IOS h1
+{
+    color: #04D3C7;
+    padding: 2%;
+    padding-left: 8%;
+    color: #04D3C7;
+    font-size: 70px;
+    text-align: left;
+}
+
+.IOS .IOS15
+{
+width: auto;
+margin: auto;
+margin: 0 0.5%;
+background-color: #F5F5F7;
+margin-bottom: 5%;
+border-radius: 40px;
+
+}
+
+.IOS15 h1, .IOS15 h2
+{
+    padding: 2%;
+    padding-left: 8%;
+}
+
+
+
+.IOS15 h1
+{
+    color: #04D3C7;
+    padding-bottom: 0;
+}
+
+.IOS15 h2
+{
+    padding-top: 0.5%;
+}
+
+.IOS15 img
+{
+    height: auto;
+    width: 500px;
+     margin: auto;
+    display: block; 
+    
+}
+
+
+
+
+
+
+
+
+
 
     /*  ------------------------------- */
     /*  -------- MEDIA QUERIES -------- */
@@ -432,6 +506,24 @@
 .Chip li 
 {
     font-size: 22px;
+}
+
+/* ----------iOS---------- */
+
+.IOS15 img
+{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.IOS15
+{
+    height: 1000px;
+    position: relative;
 }
 
 
@@ -544,6 +636,56 @@
 {
     text-align: center;
 }
+
+
+
+/* ----------iOS---------- */
+
+.IOS15 img
+{
+    width: 270px;
+    height: auto;
+    /* padding-top: 5%;
+    align-content: end; */
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.IOS h1
+{
+    font-size: 50px;;
+}
+
+.IOS15 h1
+{
+    font-size: 45px;
+    text-align: center;
+    padding-left: 0%;
+    padding-bottom: 2%;
+  
+}
+
+.IOS15 h2
+{
+
+font-size: 20px;
+padding-left: 0%;
+
+}
+.IOS15
+{
+    text-align: center;
+    align-self: left;
+    height: 600px;
+    display: block;
+    position: relative;
+}
+
+
+
 
 
 
