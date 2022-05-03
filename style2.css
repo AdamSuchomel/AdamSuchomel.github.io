@@ -43,7 +43,7 @@
 
     .Header {
         font-size: 1.4em;
-        background: rgba(0, 0, 0, .80);
+        background: rgba(0, 0, 0, 0.8);
         /* padding-left: 190px; */
         padding-top: 10px;
         padding-bottom: 10px;
@@ -85,7 +85,7 @@
         width: 100vw;
         height: 100vh;
         position: relative;
-        background-color: #2E0335;
+        background-color: rgb(255, 255, 255); /*2E0335*/
     }
 
 
@@ -219,7 +219,7 @@
 
     .O2
     {
-        background-color: black; 
+        background-color: white; 
         width: 100%;
         height: auto;
         display: flex;
