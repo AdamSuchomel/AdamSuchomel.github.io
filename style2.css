@@ -1,0 +1,411 @@
+ /*  ------------------------- */
+    /*  -------- GENERIC -------- */
+    /*  ------------------------- */
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+    }
+
+    .container {
+        min-width: min(60vw, 1600px);
+
+    }
+
+    .container2 {
+        min-width: min(70vw, 1600px);
+    }
+
+
+     /*  ------------------------ */
+    /*  -------- NAVBAR -------- */
+    /*  ------------------------ */
+
+    .Header {
+        font-size: 1.4em;
+        background: rgba(0, 0, 0, .80);
+        /* padding-left: 190px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Header>* {
+        margin-left: 20px;
+    }
+
+    .HeaderText {
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .HeaderImage {
+        width: 20px;
+        height: auto;
+        margin-right: 5px;
+        box-sizing: border-box;
+
+    }
+
+    nav a:hover
+    {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+
+ /*  --------------------------------- */
+    /*  -------- LANDING SECTION -------- */
+    /*  --------------------------------- */
+
+    .prehled {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-color: #2E0335;
+    }
+
+
+    /* .HlavniNadpis {
+        font-size: 75px;
+        margin-top: 100px;
+        width: 100%;
+		color: #000000;;
+        text-align: center;
+    } */
+
+    .iphone {
+        height: auto;
+        width: 900px;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .HlavniNadpis
+    {
+       /* text-transform: uppercase; */
+      background-image: linear-gradient(
+        -225deg,
+        /* #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100% */
+        #FFF95F 0%,
+        #c9c43c 29%,
+        #bd0ebd 67%,
+        #6b006b 100%
+      );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 75px;
+        margin-top: 100px;
+          
+    }
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .HL
+    {
+        text-align: center;
+        /* background-color: #2E0335; */
+    }
+
+    /*  ------------------------------- */
+    /*  -------- O telefonu -------- */
+    /*  ------------------------------- */
+
+        .O 
+        {
+            background-image: linear-gradient(90deg, #FFF95F, #9B009B);
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+
+        .text
+        {
+            float: left;
+            width: 50%;
+            height: auto;
+            text-align: center;
+        }
+        .photo
+        {
+            float: right; 
+            width: 50%;
+        }
+
+        .O img
+        {
+            width: 400px;
+            float: right;
+            padding-top: 10%;
+            padding-right: 3%;
+        }
+
+        .O h1
+        {
+            font-size: 100px;
+            align-items: center;
+            padding: 10%;
+            /* padding-top: 12%;
+            padding-bottom: 8%; */
+        }
+
+        .O a
+        {
+            padding: 5% 0;
+        }
+
+        .O a{ 
+        
+        
+ 
+            border-radius: 100rem;
+            color: white;
+            font-size: 20px;
+            background-color: #892160;
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            margin-top: 5%;
+            margin-left: 5%;  
+            margin-bottom: 5%;
+        } 
+
+    /*  ------------------------------- */
+    /*  -------- O telefonu 2. -------- */
+    /*  ------------------------------- */
+
+    .O2
+    {
+        background-color: black; 
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .O2 .camera, .O2 .battery, .O2 .A15
+    {
+        width: 120px;
+        height: auto;
+    }
+    
+    .O2 .maindiv
+    {
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(225deg, #771798, #2D6DCE);
+        border-radius: 75px;
+        padding: 3% 0;
+        margin: 5%;
+    }
+
+    .O2 H1
+    {
+        font-size: 55px;
+        color: white;
+        padding-bottom: 1%;
+    }
+
+
+
+
+
+
+
+
+    /*  ------------------------------- */
+    /*  -------- MEDIA QUERIES -------- */
+    /*  ------------------------------- */
+
+    @media (max-width:1600px) {
+  
+ /*  -------- O telefonu -------- */
+
+        .O text, .O .photo
+        {
+            float: none;
+           
+            height: auto;
+        }
+
+
+.O img {
+         width: 400px;
+         padding: 0px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         transform: rotate(-90deg);
+         
+    }
+
+    .O .photo
+    {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .O .text
+    {
+        width: 100%;
+        text-align: center;
+
+    }
+.O h1
+{
+    font-size: 100px;
+    padding-bottom: 2%;
+}
+.O a
+{
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+
+/*  -------- O telefonu 2. -------- */
+
+.O2 H1
+{
+    font-size: 45px;
+}
+
+.O2 .camera, .O2 .battery, .O2 .A15
+    {
+        width: 100px;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+    /* ------------------------------ */
+
+    @media (max-width:800px) {
+        .Header>* {
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        .iphone
+        {
+            width: 550px;
+            height: auto;
+        }
+
+
+ /* -------------O telefonu-------------- */
+
+
+
+        .O text, .O .photo
+        {
+            float: none;
+           
+            height: auto;
+        }
+
+
+.O img {
+         width: 200px;
+         padding: 0px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+    .O .photo
+    {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .O .text
+    {
+        width: 100%;
+        text-align: center;
+
+    }
+.O h1
+{
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+.O a
+{
+    font-size: 15px;
+    margin-left: 0%;
+    margin-bottom: 10%;
+}
+
+
+
+
+/*  -------- O telefonu 2. -------- */
+
+.O2 H1
+{
+    font-size: 30px;
+}
+
+.O2 .camera, .O2 .battery, .O2 .A15
+    {
+        width: 75px;
+        height: auto;
+    }
+
+
+
+
+
+    }
