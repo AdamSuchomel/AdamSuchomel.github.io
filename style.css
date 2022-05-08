@@ -104,8 +104,8 @@
     .prehled {
         width: 100vw;
         height: 100vh;
-	min-height: 750px;
-	max-height: 2500px;
+        min-height: 750px;
+        max-height: 2500px;
         position: relative;
     }
 
