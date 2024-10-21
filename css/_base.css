@@ -30,6 +30,12 @@ body {
     padding-right: 10px;
 }
 
+.img-responsive {
+    display: block;
+    height: auto !important;
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1600px) {
     .container {
         max-width: unset;

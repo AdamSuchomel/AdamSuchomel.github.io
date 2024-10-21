@@ -1,0 +1,31 @@
+@import url("/css/_base.css");
+@import url("/css/_header.css");
+@import url("/css/_footer.css");
+
+.photogallery {
+    h1 {
+        color: #04D3C7;
+        padding: 2%;
+        color: #04D3C7;
+        font-size: 70px;
+        text-align: left;
+    }
+
+    .gallery-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px 0;
+        gap: 20px;
+
+        .gallery-item {
+            width: calc(33% - 20px);
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: transform 0.3s;
+            }
+        }
+    }
+}
