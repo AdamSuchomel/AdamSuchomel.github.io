@@ -2,100 +2,9 @@
     /*  -------- GENERIC -------- */
     /*  ------------------------- */
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: justify;
-    }
-
-    .container {
-        min-width: min(90vw, 1600px);
-    }
-
-    .container2 {
-        width: min(90vw, 1600px);
-        background: #000000;
-        
-    }
-
-    .container3 {
-        width: min(90vw, 1600px);
-        background: #A4FBE1;
-    }
-    .container4 {
-        width: min(90vw, 1600px);
-        background: #000000;
-    }
-    .container5 {
-        width: min(90vw, 1920px);
-        background: #ffffff;
-    }
-    .container6 {
-        width: min(90vw, 1920px);
-        background: #ffffff;
-    }
-    .container7 {
-        width: min(90vw, 1920px);
-        background: #000000;
-    }
-
-    /*  ------------------------ */
-    /*  -------- NAVBAR -------- */
-    /*  ------------------------ */
-
-    .Header {
-        font-size: 1.4em;
-        background: rgba(0, 0, 0, .80);
-        /* padding-left: 190px; */
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Header>* {
-        margin-left: 20px;
-    }
-
-    .HeaderText {
-        padding: 5px;
-        color: white;
-        text-decoration: none;
-    }
-
-    .HeaderImage {
-        width: 20px;
-        height: auto;
-        margin-right: 5px;
-        box-sizing: border-box;
-
-    }
-
-    nav a:hover
-    {
-        color: rgba(255, 255, 255, 0.8);
-    }
+    @import url("css/_base.css");
+    @import url("css/_header.css");
+    @import url("css/_footer.css");
 
     /*  --------------------------------- */
     /*  -------- LANDING SECTION -------- */
@@ -109,27 +18,16 @@
         position: relative;
     }
 
-
-    /* .HlavniNadpis {
-        font-size: 75px;
-        margin-top: 100px;
-        width: 100%;
-		color: #000000;;
-        text-align: center;
-    } */
-
     .iphone {
         height: auto;
         width: 700px;
         position: absolute;
         bottom: 0px;
         left: 50%;
-        transform: translateX(-50%);
-        
+        transform: translateX(-50%);   
     }
 
-    .HlavniNadpis
-    {
+    .HlavniNadpis {
        /* text-transform: uppercase; */
       background-image: linear-gradient(
         -225deg,
@@ -147,7 +45,6 @@
         background-size: 200% auto;
         color: #fff;
         background-clip: text;
-        text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 2s linear infinite;
@@ -163,8 +60,7 @@
       }
     }
 
-    .HL
-    {
+    .HL {
         text-align: center;
     }
 
@@ -412,189 +308,6 @@
     /*  -------- IOS -------- */
     /*  -------------------------- */
 
-.IOS 
-{
-    background: rgb(255, 255, 255);
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.IOS h1
-{
-    color: #04D3C7;
-    padding: 2%;
-    padding-left: 8%;
-    color: #04D3C7;
-    font-size: 70px;
-    text-align: left;
-}
-
-.IOS .IOS15
-{
-width: auto;
-margin: auto;
-margin: 0 0.5%;
-background-color: #F5F5F7;
-margin-bottom: 5%;
-border-radius: 40px;
-
-}
-
-.IOS15 h1, .IOS15 h2
-{
-    padding: 2%;
-    padding-left: 8%;
-}
-
-
-
-.IOS15 h1
-{
-    color: #04D3C7;
-    padding-bottom: 0;
-}
-
-.IOS15 h2
-{
-    padding-top: 0.5%;
-}
-
-.IOS15 img
-{
-    height: auto;
-    width: 500px;
-     margin: auto;
-    display: block; 
-    
-}
-
-    /*  -------------------------- */
-    /*  -------- IOS2 -------- */
-    /*  -------------------------- */
-
-    .IOS2
-    {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    }
-
-   
-
-
-    
-
-    .IOSLEFT h1, .IOSMID h1, .IOSRIGHT h1
-    {
-        text-align: center;
-        color: #04D3C7;
-        padding: 5%;
-        font-size: 60px;
-    }
-    .IOSLEFT h2, .IOSMID h2, .IOSRIGHT h2
-    {
-        text-align: center;
-        color: #000000;
-        padding: 5%;
-        text-align: left;
-        font-size: 22px
-    }
-
-    .IOSLEFT img, .IOSMID img, .IOSRIGHT img
-    {
-        width: 120px;
-        height: 120px;
-      margin: auto;
-      display: block;
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-
-    }
-
-    .IOSLEFT, .IOSMID, .IOSRIGHT
-    {
-        width: auto;
-        height: 700px;
-        position: relative;
-        width: 25%;
-        border-radius: 40px;
-        background-color: #F5F5F7;
-
-      
-    }
-
-.IOSPARTS
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    /* padding: 2%; */
-
-}
-.IOSMORE
-{
-    width: 100%;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-
-
-
-    .IOSMORE a{ 
-        
-        
- 
-        border-radius: 100rem;
-        color: white;
-        font-size: 20px;
-        background-color: rgb(51, 129, 218);
-        display: inline-block;
-        padding: 0.5rem 2rem;
-         margin: 5% 0;
-
-
-    } 
-
-
-
-    /*  -------------------------- */
-    /*  -------- SIGN -------- */
-    /*  -------------------------- */
-
-    .SIGN
-    {
-        background-color: rgba(0, 0, 0, .80);
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .SIGN p
-    {
-        color: white;
-        padding: 1% 0;
-        font-weight: bold;
-    }
-
-
-
-
     /*  ------------------------------- */
     /*  -------- MEDIA QUERIES -------- */
     /*  ------------------------------- */
@@ -684,68 +397,13 @@ border-radius: 40px;
     font-size: 22px;
 }
 
-/* ----------iOS---------- */
-
-.IOS15 img
-{
-    width: 400px;
-    height: auto;
-    position: absolute;
-    bottom: 1px;
-    left: 50%;
-    transform: translateX(-50%);
 }
-
-.IOS15
-{
-    height: 800px;
-    position: relative;
-}
-
-
-/* ----------IOS2---------- */
-
-.IOSPARTS
-{
-    display: block;
-    justify-content: normal;
-    
-
-}
-
-.IOS2 .IOSLEFT, .IOS2 .IOSMID, .IOS2 .IOSRIGHT
-{
-
-    width: 100%;
-    margin: 5% 0;
-
-}
-.IOS h2, .IOS2 h2
-{
-    font-size: 30px;
-}
-.IOSLEFT img, .IOSMID img, .IOSRIGHT img
-{
-    width: 150px;
-    height: 150px;
-}
-
-
-
-}
-
-
-
 
 
 
     /* ------------------------------ */
 
     @media (max-width:800px) {
-        .Header>* {
-            font-size: 14px;
-            margin-left: 5px;
-        }
 
         .Funkce1,
         .Funkce2 {

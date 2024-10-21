@@ -1,105 +1,31 @@
  /*  ------------------------- */
-    /*  -------- GENERIC -------- */
-    /*  ------------------------- */
+ /*  -------- GENERIC -------- */
+ /*  ------------------------- */
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
+ @import url("css/_base.css");
+ @import url("css/_header.css");
+ @import url("css/_footer.css");
 
-    a {
-        text-decoration: none;
-    }
-
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: justify;
-    }
-
-    .container {
-        min-width: min(60vw, 1600px);
-
-    }
-
-    .container2 {
-        min-width: min(90vw, 1920px);
-    }
-     .container3 {
-        min-width: min(90vw, 1600px);
-        background: black;
-    }
-
-    .container4 {
-        min-width: min(60vw, 1920px);
-    }
-
-
-     /*  ------------------------ */
-    /*  -------- NAVBAR -------- */
-    /*  ------------------------ */
-
-    .Header {
-        font-size: 1.4em;
-        background: rgba(0, 0, 0, 0.8);
-        /* padding-left: 190px; */
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Header>* {
-        margin-left: 20px;
-    }
-
-    .HeaderText {
-        padding: 5px;
-        color: white;
-        text-decoration: none;
-    }
-
-    .HeaderImage {
-        width: 20px;
-        height: auto;
-        margin-right: 5px;
-        box-sizing: border-box;
-
-    }
-
-    nav a:hover
-    {
-        color: rgba(255, 255, 255, 0.8);
-    }
-
+ .container4 {
+     min-width: min(60vw, 1920px);
+ }
 
  /*  --------------------------------- */
-    /*  -------- LANDING SECTION -------- */
-    /*  --------------------------------- */
+ /*  -------- LANDING SECTION -------- */
+ /*  --------------------------------- */
 
-    .prehled {
-        width: 100vw;
-        height: 100vh;
-        min-height: 650px;
-        max-height: 2500px;
-        position: relative;
-        background-color: rgb(255, 255, 255); /*2E0335*/
-    }
+ .prehled {
+     width: 100vw;
+     height: 100vh;
+     min-height: 650px;
+     max-height: 2500px;
+     position: relative;
+     background-color: rgb(255, 255, 255);
+     /*2E0335*/
+ }
 
 
-    /* .HlavniNadpis {
+ /* .HlavniNadpis {
         font-size: 75px;
         margin-top: 100px;
         width: 100%;
@@ -107,582 +33,440 @@
         text-align: center;
     } */
 
-    .iphone {
-        height: auto;
-        width: 900px;
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        transform: translateX(-50%);
-        
-    }
+ .iphone {
+     height: auto;
+     width: 900px;
+     position: absolute;
+     bottom: 0px;
+     left: 50%;
+     transform: translateX(-50%);
 
-    .HlavniNadpis
-    {
-       /* text-transform: uppercase; */
-      background-image: linear-gradient(
-        -225deg,
-        /* #231557 0%,
+ }
+
+ .HlavniNadpis {
+     /* text-transform: uppercase; */
+     background-image: linear-gradient(-225deg,
+             /* #231557 0%,
         #44107a 29%,
         #ff1361 67%,
         #fff800 100% */
-        #FFF95F 0%,
-        #c9c43c 29%,
-        #bd0ebd 67%,
-        #6b006b 100%
-      );
-        background-size: auto auto;
-        background-clip: border-box;
-        background-size: 200% auto;
-        color: #fff;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textclip 2s linear infinite;
-        display: inline-block;
-        font-size: 75px;
-        margin-top: 100px;
-          
-    }
+             #FFF95F 0%,
+             #c9c43c 29%,
+             #bd0ebd 67%,
+             #6b006b 100%);
+     background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     color: #fff;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+     display: inline-block;
+     font-size: 75px;
+     margin-top: 100px;
 
-    @keyframes textclip {
-      to {
-        background-position: 200% center;
-      }
-    }
+ }
 
-    .HL
-    {
-        text-align: center;
-        /* background-color: #2E0335; */
-    }
+ @keyframes textclip {
+     to {
+         background-position: 200% center;
+     }
+ }
 
-    /*  ------------------------------- */
-    /*  -------- O telefonu -------- */
-    /*  ------------------------------- */
+ .HL {
+     text-align: center;
+     /* background-color: #2E0335; */
+ }
 
-        .O 
-        {
-            background-image: linear-gradient(90deg, #FFF95F, #9B009B);
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            padding-bottom: 20px;
-        }
-
-        .text
-        {
-            float: left;
-            width: 50%;
-            height: auto;
-            text-align: center;
-        }
-        .photo
-        {
-            float: right; 
-            width: 50%;
-        }
-
-        .O img
-        {
-            width: 400px;
-            float: right;
-            padding-top: 10%;
-            padding-right: 3%;
-        }
-
-        .O h1
-        {
-            font-size: 100px;
-            align-items: center;
-            padding: 10%;
-            /* padding-top: 12%;
-            padding-bottom: 8%; */
-        }
-
-        .O .a
-        {
-            padding: 5% 0;
-        }
-
-        .O .a{ 
-        
-        
- 
-            border-radius: 100rem;
-            color: white;
-            font-size: 20px;
-            background-color: #892160;
-            display: inline-block;
-            padding: 0.5rem 2rem;
-            margin-top: 5%;
-            margin-left: 5%;  
-            margin-bottom: 5%;
-        } 
-
-    /*  ------------------------------- */
-    /*  -------- O telefonu 2. -------- */
-    /*  ------------------------------- */
-
-    .O2
-    {
-        background-color: white; 
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .O2 .camera, .O2 .battery, .O2 .A15
-    {
-        width: 110px;
-        height: auto;
-    }
-    
-    .O2 .maindiv
-    {
-        align-items: center;
-        text-align: center;
-        /*background-image: linear-gradient(225deg, #771798, #2D6DCE);*/
-        background-color: #F5F5F7;
-        border-radius: 75px;
-        padding: 3% 0;
-        margin: 5%;
-
-    }
-
-    .O2 H1
-    {
-        font-size: 55px;
-        color: black;
-        padding-bottom: 1%;
-    }
-
-
-    /*  ------------------------------- */
-    /*  -------- Makro -------- */
-    /*  ------------------------------- */
-
-    .Makro
-    {
-    	background-color: black; 
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 2.5% 0;
-    }
-    .Makrowidth
-    {
-    	width: 60%;
-    	display: flex;
-        align-items: center;
-        justify-content: center;
-    	
-    }
-    .container3
-    {
-    	display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .Makro .left
-    {
-    	width: 50%;
-    	/*float: left;*/
-    	z-index: 2;
-    }
-
-    .Makro .right
-    {
-    	width: 50%;
-    	/*float: right;*/
-    }
-
-
-
-    .right p, .right h1
-    {
-    text-align: left;
-    margin-left: 18%;
-    }
-
-     .left p, .left h1
-    {
-    text-align: left;
-    margin-left: 20%;
-    }
-
-
-
-
-    .Makro img
-    {
-    	width: 80%;
-    	padding-top: 5%;
-    }
-
-    .Makro .flower
-    {
-    	transform: translateX(35%);
-        margin-top: 10%;
-        width: 80%;
-
-    }
-
- 
-
-.Makro H1
-{
-	color: white;
-	font-size: 60px;
-	padding: 10% 0 10% 10%;
-}
-.Makro p
-{
-	color: #7D7D82;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 0% 0 10% 10%;
-}
-
-
-    /*  ------------------------------- */
-    /*  -------- Nature -------- */
-    /*  ------------------------------- */
-
-    .Nature
-    {
-        background-color: white;
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-.container4
-{
-    background-image: linear-gradient(120deg, #eba53d, #6A125E); 
-    height: fit-content;
-    border-radius: 5%;
-}
-
-.Nature .TOP
-{
-    text-align: center;
-}
-
-.Nature .CENTERDIV
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    .Nature .RIGHTIMG
-    {
-        width: 650px;
-        height: auto;
-        transform: translateX(-20%);
-    }
-    .Nature .LEFTIMG
-    {
-        width: 620px;
-        height: auto;
-        margin-top: 60%;
-        transform: translateX(20%);
-
-    }
-    .Nature .LEFT
-    {
-        z-index: 2;
-    }
-    
-    .Nature h1
-    {
-        
-        /* font-style: linear-gradient(225deg, #771798, #2D6DCE); */
-        /* color: #771798; */
-        color: white;
-
-    }
-    .Nature .TOP 
-    {
-  padding-top: 4%;
-  font-size: 1.5rem;
-    }
-
-    .SIGN
-    {
-        background-color: rgba(0, 0, 0, .80);
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 5%;
-    }
-
-    .SIGN p
-    {
-        color: white;
-        padding: 1% 0;
-        font-weight: bold;
-    }
- 
- 
-
-
-
-    /*  ------------------------------- */
-    /*  -------- MEDIA QUERIES -------- */
-    /*  ------------------------------- */
-
-    @media (max-width:1600px) {
-  
+ /*  ------------------------------- */
  /*  -------- O telefonu -------- */
+ /*  ------------------------------- */
 
-        .O text, .O .photo
-        {
-            display: flex;
-           
-/*            height: auto;*/
-        }
+ .O {
+     background-image: linear-gradient(90deg, #FFF95F, #9B009B);
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-bottom: 20px;
+ }
+
+ .text {
+     float: left;
+     width: 50%;
+     height: auto;
+     text-align: center;
+ }
+
+ .photo {
+     float: right;
+     width: 50%;
+ }
+
+ .O img {
+     width: 400px;
+     float: right;
+     padding-top: 10%;
+     padding-right: 3%;
+ }
+
+ .O h1 {
+     font-size: 100px;
+     align-items: center;
+     padding: 10%;
+     /* padding-top: 12%;
+            padding-bottom: 8%; */
+ }
+
+ .O .a {
+     padding: 5% 0;
+ }
+
+ .O .a {
 
 
-.O img {
+
+     border-radius: 100rem;
+     color: white;
+     font-size: 20px;
+     background-color: #892160;
+     display: inline-block;
+     padding: 0.5rem 2rem;
+     margin-top: 5%;
+     margin-left: 5%;
+     margin-bottom: 5%;
+ }
+
+ /*  ------------------------------- */
+ /*  -------- O telefonu 2. -------- */
+ /*  ------------------------------- */
+
+ .O2 {
+     background-color: white;
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .O2 .camera,
+ .O2 .battery,
+ .O2 .A15 {
+     width: 110px;
+     height: auto;
+ }
+
+ .O2 .maindiv {
+     align-items: center;
+     text-align: center;
+     /*background-image: linear-gradient(225deg, #771798, #2D6DCE);*/
+     background-color: #F5F5F7;
+     border-radius: 75px;
+     padding: 3% 0;
+     margin: 5%;
+
+ }
+
+ .O2 H1 {
+     font-size: 55px;
+     color: black;
+     padding-bottom: 1%;
+ }
+
+
+ /*  ------------------------------- */
+ /*  -------- Makro -------- */
+ /*  ------------------------------- */
+
+ .Makro {
+     background-color: black;
+     width: 100%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2.5% 0;
+ }
+
+ .Makrowidth {
+     width: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .Makro .left {
+     width: 50%;
+     /*float: left;*/
+     z-index: 2;
+ }
+
+ .Makro .right {
+     width: 50%;
+     /*float: right;*/
+ }
+
+
+
+ .right p,
+ .right h1 {
+     text-align: left;
+     margin-left: 18%;
+ }
+
+ .left p,
+ .left h1 {
+     text-align: left;
+     margin-left: 20%;
+ }
+
+
+
+
+ .Makro img {
+     width: 80%;
+     padding-top: 5%;
+ }
+
+ .Makro .flower {
+     transform: translateX(35%);
+     margin-top: 10%;
+     width: 80%;
+
+ }
+
+
+
+ .Makro H1 {
+     color: white;
+     font-size: 60px;
+     padding: 10% 0 10% 10%;
+ }
+
+ .Makro p {
+     color: #7D7D82;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 0% 0 10% 10%;
+ }
+
+ /*  ------------------------------- */
+ /*  -------- MEDIA QUERIES -------- */
+ /*  ------------------------------- */
+
+ @media (max-width:1600px) {
+
+     /*  -------- O telefonu -------- */
+
+     .O text,
+     .O .photo {
+         display: flex;
+
+         /*            height: auto;*/
+     }
+
+
+     .O img {
          width: 250px;
          padding-right: 0%;
-    }
+     }
 
-    .O .photo
-    {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-direction: column;
+     .O .photo {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
 
-    }
+     }
 
-    .O .text
-    {
-        text-align: left;
+     .O .text {
+         text-align: left;
 
-    }
-.O h1
-{
-    font-size: 60px;
-    padding-left: 0px;
-}
-.O .a
-{
-	margin-top: 5%;
-    margin-left: 0%;
-}
+     }
+
+     .O h1 {
+         font-size: 60px;
+         padding-left: 0px;
+     }
+
+     .O .a {
+         margin-top: 5%;
+         margin-left: 0%;
+     }
 
 
-/*  -------- O telefonu 2. -------- */
+     /*  -------- O telefonu 2. -------- */
 
-.O2 H1
-{
-    font-size: 45px;
-}
+     .O2 H1 {
+         font-size: 45px;
+     }
 
-.O2 .camera, .O2 .battery, .O2 .A15
-    {
-        width: 100px;
-        height: auto;
-    }
+     .O2 .camera,
+     .O2 .battery,
+     .O2 .A15 {
+         width: 100px;
+         height: auto;
+     }
 
 
-/*  -------- Makro -------- */
+     /*  -------- Makro -------- */
 
-.Makro H1
-{
-	color: white;
-	font-size: 2rem;
-	padding: 10% 0 10% 10%;
-}
-.Makro p
-{
-	color: #7D7D82;
-	font-size: 1rem;
-	padding: 0% 0 10% 10%;
-}
+     .Makro H1 {
+         color: white;
+         font-size: 2rem;
+         padding: 10% 0 10% 10%;
+     }
 
-.Makro img
-{
-margin-top: 8%;
+     .Makro p {
+         color: #7D7D82;
+         font-size: 1rem;
+         padding: 0% 0 10% 10%;
+     }
 
-}
+     .Makro img {
+         margin-top: 8%;
+
+     }
 
 
 
 
 
-}
+ }
 
 
-    /* ------------------------------ */
+ /* ------------------------------ */
 
-    @media (max-width:800px) {
-        .Header>* {
-            font-size: 14px;
-            margin-left: 5px;
-        }
-
-        .iphone
-        {
-            width: 400px;
-            height: auto;
-            bottom: 10%;
-        }
+ @media (max-width:800px) {
+     .iphone {
+         width: 400px;
+         height: auto;
+         bottom: 10%;
+     }
 
 
- /* -------------O telefonu-------------- */
+     /* -------------O telefonu-------------- */
 
 
 
-        .O text, .O .photo
-        {
-            float: none;
-           
-            height: auto;
-        }
+     .O text,
+     .O .photo {
+         float: none;
+
+         height: auto;
+     }
 
 
-.O img {
+     .O img {
          width: 200px;
          padding: 0px;
          display: block;
          margin-left: auto;
          margin-right: auto;
          transform: none;
-    }
+     }
 
-    .O .photo
-    {
-        width: 100%;
-        display: flex;
+     .O .photo {
+         width: 100%;
+         display: flex;
 
-    }
+     }
 
-    .O .text
-    {
-        width: 100%;
-        text-align: center;
+     .O .text {
+         width: 100%;
+         text-align: center;
 
-    }
-.O h1
-{
-    font-size: 50px;
-    padding-bottom: 2%;
-    padding-right: 0%;
-}
-.O .a
-{
-    font-size: 15px;
-    margin-left: 0%;
-    margin-bottom: 10%;
-}
+     }
+
+     .O h1 {
+         font-size: 50px;
+         padding-bottom: 2%;
+         padding-right: 0%;
+     }
+
+     .O .a {
+         font-size: 15px;
+         margin-left: 0%;
+         margin-bottom: 10%;
+     }
 
 
 
 
-/*  -------- O telefonu 2. -------- */
+     /*  -------- O telefonu 2. -------- */
 
-.O2 H1
-{
-    font-size: 22px;
-}
+     .O2 H1 {
+         font-size: 22px;
+     }
 
-.O2 .camera, .O2 .battery, .O2 .A15
-    {
-        width: 60px;
-        height: auto;
-    }
+     .O2 .camera,
+     .O2 .battery,
+     .O2 .A15 {
+         width: 60px;
+         height: auto;
+     }
 
-.O2 .maindiv
-{
-    border-radius: 50px;
-}
+     .O2 .maindiv {
+         border-radius: 50px;
+     }
 
-/*  -------- Makro -------- */
+     /*  -------- Makro -------- */
 
-.Makro H1
-{
-	color: white;
-	font-size: 2rem;
-	padding: 10% 0 10% 10%;
-    text-align: center;
-    padding: 5%;
-    margin: 0%;
-}
-.Makro p
-{
-	color: #7D7D82;
-	font-size: 1rem;
-	padding: 0% 0 10% 10%;
-    text-align: center;
-    padding: 5%;
-    margin: 0%;
-}
+     .Makro H1 {
+         color: white;
+         font-size: 2rem;
+         padding: 10% 0 10% 10%;
+         text-align: center;
+         padding: 5%;
+         margin: 0%;
+     }
 
-.Makro img
-{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+     .Makro p {
+         color: #7D7D82;
+         font-size: 1rem;
+         padding: 0% 0 10% 10%;
+         text-align: center;
+         padding: 5%;
+         margin: 0%;
+     }
 
-}
+     .Makro img {
+         width: 300px;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+     }
 
-.Makro .flower
-{
-    transform: none;
-    margin-top: 10%;
-    width: 300px;
-}
+     .Makro .flower {
+         transform: none;
+         margin-top: 10%;
+         width: 300px;
+     }
 
-.Makrowidth
-{
-    width: 100%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-    
-}
+     .Makrowidth {
+         width: 100%;
+         display: block;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+     }
 
-.Makro .left
-    {
-    	width: 100%;
-    	z-index: 2;
+     .Makro .left {
+         width: 100%;
+         z-index: 2;
 
-    }
+     }
 
-    .Makro .right
-    {
-    	width: 100%;
-    }
+     .Makro .right {
+         width: 100%;
+     }
 
-/*  -------- Nature -------- */
-
-   
-
-
-
-    }
+     /*  -------- Nature -------- */
+ }
