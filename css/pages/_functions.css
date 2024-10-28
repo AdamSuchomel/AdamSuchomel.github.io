@@ -1,0 +1,37 @@
+@import url("/css/_base.css");
+@import url("/css/_header.css");
+@import url("/css/_footer.css");
+
+.functions {
+    h1 {
+        padding: 2%;
+        color: #04D3C7;
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .f-descriptions {
+        margin-bottom: 1.3rem;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    table {
+        width: 1200px;
+
+        thead tr {
+            background-color: #f7f8fc;
+        }
+
+        td:nth-child(odd) {
+            background-color: #f7f8fc;
+        }
+
+        td, th {
+            padding: 10px 20px;
+            vertical-align: top;
+        }
+    }
+}
