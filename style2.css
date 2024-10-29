@@ -1,10 +1,3 @@
- /*  ------------------------- */
- /*  -------- GENERIC -------- */
- /*  ------------------------- */
-
- @import url("css/_base.css");
- @import url("css/_header.css");
- @import url("css/_footer.css");
 
  .container4 {
      min-width: min(60vw, 1920px);

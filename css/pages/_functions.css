@@ -2,6 +2,15 @@
 @import url("/css/_header.css");
 @import url("/css/_footer.css");
 
+body {
+    min-height: 100vh;
+    height: 100%;
+}
+
+.footer {
+    margin-top: auto !important;
+}
+
 .functions {
     h1 {
         padding: 2%;
@@ -16,6 +25,7 @@
 
     .table-wrapper {
         overflow-x: auto;
+        padding: 20px 0;
     }
 
     table {
