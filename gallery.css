@@ -14,7 +14,7 @@
         gap: 20px;
 
         .gallery-item {
-            width: calc(33% - 20px);
+            width: calc(25% - 20px);
             cursor: pointer;
 
             &:hover {
@@ -24,7 +24,15 @@
         }
     }
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1600px) {
+        .gallery-wrapper {
+            .gallery-item {
+                width: calc(33% - 20px);
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
         .gallery-wrapper {
             .gallery-item {
                 width: calc(50% - 20px);
