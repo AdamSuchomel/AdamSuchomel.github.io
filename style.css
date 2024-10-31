@@ -115,7 +115,6 @@
     .Funkce2 .prvniodstavec {
         color: white;
         font-size: 25px;
-        font-weight: none;
         padding-top: 50px;
         padding-left: 30px;
         float: left;
@@ -152,7 +151,6 @@
     .Funkce2 .prvniodstavec {
         color: white;
         font-size: 25px;
-        font-weight: none;
         padding-top: 50px;
         padding-left: 30px;
         float: left;
@@ -275,7 +273,6 @@
      .Chip li { 
         color: white;
         font-size: 20px;
-        font-weight: none;
         font-weight: normal;
         text-align: justify;
         max-width: 500px;
@@ -530,7 +527,6 @@
 
 font-size: 20px;
 padding-left: 0%;
-font-weight: none;
 
 }
 .IOS15

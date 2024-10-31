@@ -106,7 +106,7 @@
      padding-right: 3%;
  }
 
- .O h1 {
+ .O h2 {
      font-size: 100px;
      align-items: center;
      padding: 10%;
@@ -285,7 +285,7 @@
 
      }
 
-     .O h1 {
+     .O h2 {
          font-size: 60px;
          padding-left: 0px;
      }
@@ -298,7 +298,7 @@
 
      /*  -------- O telefonu 2. -------- */
 
-     .O2 H1 {
+     .O2 H2 {
          font-size: 45px;
      }
 
@@ -312,7 +312,7 @@
 
      /*  -------- Makro -------- */
 
-     .Makro H1 {
+     .Makro h2 {
          color: white;
          font-size: 2rem;
          padding: 10% 0 10% 10%;
@@ -379,7 +379,7 @@
 
      }
 
-     .O h1 {
+     .O h2 {
          font-size: 50px;
          padding-bottom: 2%;
          padding-right: 0%;
@@ -396,7 +396,7 @@
 
      /*  -------- O telefonu 2. -------- */
 
-     .O2 H1 {
+     .O2 H2 {
          font-size: 22px;
      }
 
