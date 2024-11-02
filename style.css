@@ -293,13 +293,15 @@
         margin-left: 5%;  
     } 
 
-    /*  -------------------------- */
-    /*  -------- IOS -------- */
-    /*  -------------------------- */
-
-    /*  ------------------------------- */
-    /*  -------- MEDIA QUERIES -------- */
-    /*  ------------------------------- */
+    .contact-form {
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #f7f8fc;
+        }
+    }
 
     @media (max-width:1600px) {
 
