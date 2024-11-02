@@ -294,20 +294,22 @@
     } 
 
     .contact-form {
-        padding-top: 40px;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f7f8fc;
 
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            border: 1px solid #f7f8fc;
         }
 
         input {
             background-color: unset;
             padding: 5px 10px;
             margin-bottom: 5px;
+            border: 1px solid #f7f8fc;
         }
 
         button {
