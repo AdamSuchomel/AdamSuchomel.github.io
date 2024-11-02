@@ -312,6 +312,10 @@
             border: 1px solid #f7f8fc;
         }
 
+        input[type=text] {
+            min-height: 80px;
+        }
+
         button {
             background-color: black;
             color: white;
